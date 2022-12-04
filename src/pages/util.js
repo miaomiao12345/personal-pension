@@ -63,7 +63,7 @@ export function getGraphData ({years, rate, taxRate}) {
     type: 'rect',
     x: startX + transX,
     y: startY + transY*(years),
-    text: `投入本金：${finalPrincipal}\n获得利息：${finalInterest}\n账户余额${finalPrincipal + finalInterest}`
+    text: `投入本金：${finalPrincipal}\n获得利息：${finalInterest}\n账户余额：${finalPrincipal + finalInterest}`
   })
   textNodes.push({
     type: 'text',
