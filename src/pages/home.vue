@@ -127,5 +127,6 @@ export default {
   width: 100%;
   height: calc(100vh - 180px);
   outline: none;
+  margin-top: 12px;
 }
 </style>
